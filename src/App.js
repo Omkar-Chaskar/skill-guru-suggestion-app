@@ -7,6 +7,11 @@ const guruDB = {
       name: "Tanay Pratap",
       skill: "FrontEnd Development",
       work: "Microsoft , neogcamp"
+    },
+    {
+      name: "Daniel Shiffman",
+      skill: "FrontEnd Development",
+      work: "Coding Train"
     }
   ],
   finance: [
@@ -14,6 +19,11 @@ const guruDB = {
       name: "Shashank Udupa",
       skill: "Stocks , Money Managment, Finance Expert",
       work: "Avelon Meta"
+    },
+    {
+      name: "Anil Lamba",
+      skill: "Taxation, Author, Finance Expert",
+      work: "Training and consulting in finance, Youtuber"
     }
   ],
   digitalMarketing: [
