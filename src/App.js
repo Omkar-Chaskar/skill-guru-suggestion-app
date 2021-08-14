@@ -62,15 +62,21 @@ export default function App() {
             style={{
               listStyle: "none",
               padding: "1rem",
+              marginRight: "auto",
+              marginLeft: "auto",
               border: "1px solid #D1D5DB",
-              width: "70%",
+              width: "60%",
               margin: "1rem 0rem",
-              borderRadius: "0.5rem"
+              borderRadius: "0.5rem",
+              textAlign: "center"
             }}
           >
             {" "}
-            <div style={{ fontSize: "larger" }}> {guru.name} </div>
-            <div style={{ fontSize: "smaller" }}> {guru.skill} </div>
+            <div style={{ fontSize: "larger", fontWeight: "bold" }}>
+              {" "}
+              {guru.name}{" "}
+            </div>
+            <div style={{ fontSize: "Large" }}> {guru.skill} </div>
             <div style={{ fontSize: "smaller" }}> {guru.work} </div>
           </li>
         ))}
