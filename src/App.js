@@ -16,8 +16,8 @@ const guruDB = {
       rating: "4.8 / 5"
     },
     {
-      name: "Daniel Shiffman",
-      skill: "FrontEnd Development",
+      name: "Kevin Powell ",
+      skill: "FrontEnd Development , web Devloper , Css master",
       work: "Coding Train",
       rating: "4.6 / 5"
     }
@@ -36,9 +36,9 @@ const guruDB = {
       rating: "4 / 5"
     },
     {
-      name: "Anil Lamba",
-      skill: "Taxation, Author, Finance Expert",
-      work: "Training and consulting in finance, Youtuber",
+      name: " Ranveer Allahbadia ",
+      skill: "Personal Finance, Finance Expert",
+      work: " Youtuber",
       rating: "3 / 5"
     }
   ],
