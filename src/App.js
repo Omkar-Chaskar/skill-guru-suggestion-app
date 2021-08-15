@@ -6,31 +6,60 @@ const guruDB = {
     {
       name: "Tanay Pratap",
       skill: "FrontEnd Development",
-      work: "Microsoft , neogcamp"
+      work: "Microsoft , neogcamp",
+      rating: "5 / 5"
     },
     {
       name: "Daniel Shiffman",
       skill: "FrontEnd Development",
-      work: "Coding Train"
+      work: "Coding Train",
+      rating: "4.8 / 5"
+    },
+    {
+      name: "Daniel Shiffman",
+      skill: "FrontEnd Development",
+      work: "Coding Train",
+      rating: "4.6 / 5"
     }
   ],
   finance: [
     {
       name: "Shashank Udupa",
       skill: "Stocks , Money Managment, Finance Expert",
-      work: "Avelon Meta"
+      work: "Avelon Meta",
+      rating: "4.7 / 5"
     },
     {
       name: "Anil Lamba",
       skill: "Taxation, Author, Finance Expert",
-      work: "Training and consulting in finance, Youtuber"
+      work: "Training and consulting in finance, Youtuber",
+      rating: "4 / 5"
+    },
+    {
+      name: "Anil Lamba",
+      skill: "Taxation, Author, Finance Expert",
+      work: "Training and consulting in finance, Youtuber",
+      rating: "3 / 5"
     }
   ],
   digitalMarketing: [
     {
       name: "Abhinav Arora",
       skill: "Content Markering  ,Copywriting ,Growth Hacking",
-      work: "Avelon Meta"
+      work: "Avelon Meta",
+      rating: "4.9 / 5"
+    },
+    {
+      name: "Ankur Aggarwal",
+      skill: "Content Creator , Growth Hackes ",
+      work: "Youtuber",
+      rating: "4.5 / 5"
+    },
+    {
+      name: "Darrel Wilson",
+      skill: "Content Creator ,Copywriting ,Wordpress Developer",
+      work: "Youtuber",
+      rating: "4 / 5"
     }
   ]
 };
@@ -78,6 +107,7 @@ export default function App() {
             </div>
             <div style={{ fontSize: "Large" }}> {guru.skill} </div>
             <div style={{ fontSize: "smaller" }}> {guru.work} </div>
+            <div style={{ fontSize: "smaller" }}> {guru.rating} </div>
           </li>
         ))}
       </ul>
